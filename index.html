@@ -30,7 +30,9 @@
             <li><a href="#Service" class="list-item">Service</a></li>
             <li><a href="#Product" class="list-item">Product</a></li>
             <li><a href="#About Us" class="list-item">About Us</a></li>
-            <li><a href="#Contact Us" class="list-item Contact">Contact Us</a></li>
+            <li>
+              <a href="#Contact Us" class="list-item Contact">Contact Us</a>
+            </li>
           </ul>
 
           <div class="mobile-menu" onclick="showMenu()">
@@ -49,12 +51,10 @@
     <section class="header" id="header">
       <div class="container">
         <div class="header-info">
-          <h1 class="header-headline">
-            We are waiting for you , Take your property
-          </h1>
+          <h1 class="header-headline">Find Your Dream Home with Ease</h1>
           <p class="header-para">
-            We provide the best service for you. We have a lot of property for
-            rent. You can choose your property from here.
+            Discover premium properties in the best locations, tailored to your
+            lifestyle and budget. Buy, sell, or rent with confidence.
           </p>
 
           <a href="#" class="btn">Explore Now</a>
@@ -68,17 +68,35 @@
 
     <form>
       <div class="container">
-        <div class="input">
+        <div class="coolinput">
           <img src="images/locatio.png" alt="" id="" />
-          <input type="text" name="location" placeholder="location...." />
+          <label for="input" class="text">location:</label>
+          <input
+            type="text"
+            placeholder="Write here..."
+            name="location"
+            class="input"
+          />
         </div>
-        <div class="input">
+        <div class="coolinput">
           <img src="images/locatio.png" alt="" id="" />
-          <input type="text" name="location" placeholder="type...." />
+          <label for="input" class="text">House:</label>
+          <input
+            type="text"
+            placeholder="Write here..."
+            name="House"
+            class="input"
+          />
         </div>
-        <div class="input">
+        <div class="coolinput">
           <img src="images/locatio.png" alt="" id="" />
-          <input type="text" name="location" placeholder="budgect...." />
+          <label for="input" class="text">budget:</label>
+          <input
+            type="text"
+            placeholder="Write here..."
+            name="budget"
+            class="input"
+          />
         </div>
         <div class="input-btn">
           <button type="submit">Search Now</button>
@@ -111,22 +129,22 @@
                 <img src="images/bed.png" alt="" />
                 <p>4 Bed</p>
               </div>
-                <div class="content">
-                    <img src="images/bath.png" alt="" />
-                    <p>2 Bath</p>
-                </div>
-                <div class="content">
-                    <img src="images/size.png" alt="" />
-                    <p>10x10m</p>
-                </div>
-                <div class="content">
-                    <img src="images/area.png" alt="" />
-                    <p>20 000M</p>
-                </div>
-                <div class="content">
-                    <p>Price: R500 000</p>
-                    <a href="" class="booking-btn">Book Now</a>
-                </div>
+              <div class="content">
+                <img src="images/bath.png" alt="" />
+                <p>2 Bath</p>
+              </div>
+              <div class="content">
+                <img src="images/size.png" alt="" />
+                <p>10x10m</p>
+              </div>
+              <div class="content">
+                <img src="images/area.png" alt="" />
+                <p>20 000M</p>
+              </div>
+              <div class="content">
+                <p>Price: R500 000</p>
+                <a href="" class="booking-btn">Book Now</a>
+              </div>
             </div>
           </div>
         </div>
@@ -137,5 +155,4 @@
 
     <script src="./App.js"></script>
   </body>
-
 </html>
