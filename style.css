@@ -21,3 +21,106 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/*
+Improve meadia default style
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  /* height: auto; */
+}
+
+/*
+Remove built-in form typography styles
+*/
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+/*
+avoid text overflow
+*/
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+    /* color: inherit; */
+}
+
+
+/*
+navbar style
+*/
+
+nav {
+    width: 100%;
+    max-width: 1900px;
+    /* position: absolute; */
+    inset: 0 0 100% 0;
+}
+
+nav .container {
+    width: 90%;
+    margin: 0 auto;
+    min-height: 80px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    /* color: #fff; */
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 50%;
+}
+
+.list-item {
+    /* color: #fff; */
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: opacity 300ms ease;
+}
+
+.list-item:hover {
+    opacity: 0.8;
+}
+
+.Contact {
+    background-color: rgb(131, 130, 130);
+    padding: 0.5rem 0.8rem;
+    border-radius: 8px;
+    padding: 0.2rem 0.4rem;
+    
+}
