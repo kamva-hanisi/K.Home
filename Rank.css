@@ -1,0 +1,42 @@
+@media (max-width:600px){
+    .navbar{
+        box-shadow: 2px 2px 2px rgba(80, 80, 80, 0.15);
+        min-height: 80px;
+        z-index: 9999;
+    }
+
+    .logo {
+        color: #ffffff;
+    }
+
+    .nav-link{
+        position: absolute;
+        flex-direction: column;
+        align-items: start;
+        top: -50vh;
+        gap: 2rem;
+        left: 0%;
+        padding-left: 0;
+        transition: opacity 200ms ease-in-out;
+        background-color: #505050;
+        width: 100%;
+        opacity: 0;
+        justify-content: start;
+    }
+
+    .nav-link :last-child {
+        padding-bottom: 1rem;
+        
+    }
+    
+    .nav-link.active {
+        opacity: 1;
+        top: 60px;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        z-index: 9999;
+
+    }
+
+
+}

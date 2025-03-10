@@ -210,7 +210,7 @@ form{
 form .container {
     width: 80%;
     margin-inline: auto;
-    background-color: hsl(0, 12%, 93%);
+    background-color: #efebeb;
     box-shadow: 0px 5px 10px rgba(80, 80, 80, 0.30);
     display: flex;
     justify-content: center;
@@ -222,8 +222,9 @@ form .container {
     gap: 2rem;
 }
 
-/* From Uiverse.io by Praashoo7 */ 
-/* From Uiverse.io by ercnersoy */ 
+
+
+ 
 .coolinput {
     display: flex;
     flex-direction: column;
@@ -268,7 +269,7 @@ form .container {
 }
 
 /* From Uiverse.io by zanina-yassine */ 
-.input-btn {
+.btn {
     min-width: 120px;
   
     position: relative;
@@ -290,7 +291,7 @@ form .container {
     transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);
   }
   
-  .input-btn::before {
+  .btn::before {
     content: "";
     width: 70%;
     height: 1px;
@@ -311,12 +312,134 @@ form .container {
     transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);
   }
   
-  .input-btn:hover {
+  .btn:hover {
     /* color: rgb(255, 255, 255, 1); */
     transform: scale(1.1) translateY(-3px);
   }
   
-  .input-btn:hover::before {
+  .btn:hover::before {
     opacity: 1;
   }
-  
+
+
+/* property*/
+
+#property{
+  width: 100%;
+  max-width: 1980px;
+  padding-block: 4rem;
+}
+
+.property-info{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+.property-info .property-title{
+  font-size: 2.8rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: grey;
+  width: 70%;
+}
+
+.property-btn {
+  background-color: transparent;
+  color: #505050;
+  font-size: 1.5rem;
+  display: flex;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  min-height: 20px;
+  transition: color 300ms;
+}
+
+.property-btn:hover {
+  color: #000;
+}
+
+.property .container{
+  width: 90%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.property-card{
+  flex-basis: 28%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px rgba(80, 80, 80, 0.20);
+}
+
+.property-card:hover .property-img{
+  transform: scale(1.035);
+}
+
+.property-img{
+  flex-basis: 100%;
+  object-fit: cover;
+  transition: 300ms ease;
+}
+
+
+.card-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+  padding-top: 0.5rem;
+}
+
+.card-info-content {
+  display: flex;
+  text-transform: uppercase;
+  min-height: 20px;
+  justify-self: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: 90%;
+  margin-inline: auto;
+
+}
+
+.content {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: start;
+  min-height: 20px;
+  align-items: center;
+}
+
+.content p {
+  font-size: 1rem;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-inline: auto;
+  gap: 10px;
+
+}
+
+.price p {
+  font-size: 1.5rem;
+  flex-basis: 30%;
+}
