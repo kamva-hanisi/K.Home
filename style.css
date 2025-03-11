@@ -93,7 +93,7 @@ nav .container {
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 2.1rem;
     font-weight: 700;
     color: #fff;
 }
@@ -394,7 +394,7 @@ form .container {
 
 .property-card{
   display: flex;
-  align-items: center;
+  /* align-items: stretch; */
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -404,16 +404,18 @@ form .container {
   background: #ffffff;
   align-items: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
   padding: 1rem 2rem;
   overflow: hidden;
   width: 240px;
+  min-height: 340px;
   /* height: 340px; */
   border-radius: 1.2rem;
   margin: 2rem;
   box-shadow: 0px 1px 10px #0000001a;
   transition: 0.5s;
+  /* flex: 1; */
 }
 
 .Popular:hover img{
@@ -427,10 +429,11 @@ form .container {
 }
 
 .property-img{
-  max-width: 140%;
-  /* height: 00px; */
-  overflow: hidden;
-  border-radius: 1.2rem;
+  width: 240px;
+  /* min-height: 20px; */
+  /* padding: 10px 0px; */
+  object-fit: cover;
+  /* border-radius: 1.2rem; */
 }
 
 .card-info{
