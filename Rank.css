@@ -38,5 +38,125 @@
 
     }
 
+    .nav-link.active a {
+        color: #fff;
+    }
+
+    .contact{
+        background-color: transparent;
+        padding-left: 0;
+    }
+
+    .mobile-menu{
+        display: block;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        flex-direction: column;
+        gap: 5px;
+        margin-right: 1rem;
+    }
+    
+    .line {
+        width: 90%;
+        height: 4px;
+        background-color: #fff;
+        border-radius: 5px;
+        position: absolute;
+        transition: transform 300ms ease-in-out;
+    }
+
+    .line1 {
+        top: 3px;
+    }
+
+    .line1.active {
+        transform: rotate(49deg);
+        top: 15px;
+    }
+
+    .line2.active {
+        transform: translateX(30px);
+        opacity: 0;
+    }
+
+    .line3 {
+        bottom: 3px;
+
+    }
+
+    .line3.active {
+
+        transform: rotate(-49deg);
+        bottom: 16px;
+
+    }
+
+    .header{
+        height: 600px;
+    }
+
+    .header.container {
+        width: 100%;
+        z-index: -99;
+    }
+    .header-info{
+        z-index: 989;
+    }
+
+    .header-headline {
+        font-size: 2.5rem;
+        /* text-align: left; */
+        width: 100%;
+        padding: 0;
+        line-height: 140%;
+        font-weight: 900;
+    }
+
+    .header-subtitle {
+        width: 100%;
+        font-size: 0.825rem;
+        padding: 1rem;
+    }
+
+    .btn {
+        width: 100px;
+    }
+
+    form{
+        width: 100%;
+        display: block;
+        border-radius: 0;
+    }
+    form .container{
+        box-shadow: 0px 5px 10px rgba(80, 80, 80, 0.15);
+        
+    }
+
+    .property-info{
+        width: 90%;
+        justify-content: center;
+    }
+
+    .product-info .product-title{
+        font-size: 1.5rem;
+        width: 100%;
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .property-container{
+        gap: 2rem;
+    }
+
+    .property-card{
+        flex-basis: 100%;
+    }
+
+
 
 }
