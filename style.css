@@ -124,14 +124,15 @@ nav .container {
 }
 
 .list-item:hover {
+    color: #28a745;
     opacity: 0.8;
 }
 
-.Contact {
+.Sign {
     background-color: rgb(131, 130, 130);
-    padding: 0.5rem 0.8rem;
+    /* padding: 0.5rem 0.8rem; */
     border-radius: 8px;
-    padding: 0.2rem 0.4rem;
+    padding: 0.1rem 0.4rem;
     
 }
 

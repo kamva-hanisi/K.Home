@@ -1,6 +1,8 @@
 const line1=document.querySelector('.line1');
 const line2=document.querySelector('.line2');
 const line3=document.querySelector('.line3');
+const line4=document.querySelector('.line4');
+const line5=document.querySelector('.line5');
 const sidebar=document.querySelector('.nav-link');
 
 
