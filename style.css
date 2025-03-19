@@ -26,25 +26,24 @@ body {
 /*
 Improve meadia default style
 */
-img,
+/* img,
 picture,
 video,
 canvas,
 svg {
   display: block;
   max-width: 100%;
-  /* height: auto; */
-}
+} */
 
 /*
 Remove built-in form typography styles
 */
-button,
+/* button,
 input,
 textarea,
 select {
   font: inherit;
-}
+} */
 
 /*
 avoid text overflow
@@ -93,7 +92,7 @@ nav .container {
 }
 
 .logo {
-    font-size: 2.1rem;
+    font-size: 2rem;
     font-weight: 700;
     color: #fff;
 }
@@ -109,7 +108,7 @@ nav .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    list-style: none;
+    /* list-style: none; */
 }
 
 .list-item {
@@ -171,7 +170,7 @@ nav .container {
     justify-content: center;
     align-items: center;
     height: 100%;
-    z-index: 2;
+    /* z-index: 2; */
 }
 
 .header-headline{
